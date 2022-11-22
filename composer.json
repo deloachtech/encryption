@@ -1,0 +1,15 @@
+{
+  "name": "aarondeloach/encryption",
+  "description": "An Advanced Encryption Standard (AES) 256-bit class for PHP.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.3.0",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AaronDeLoach\\Encryption\\": "src/"
+    }
+  }
+}
