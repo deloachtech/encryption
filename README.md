@@ -3,7 +3,7 @@ Encryption Package
 
 An Advanced Encryption Standard (AES) 256-bit class for PHP.
 
-(Understanding AES 256 Encryption)[https://www.n-able.com/blog/aes-256-encryption-algorithm]
+[Understanding AES 256 Encryption](https://www.n-able.com/blog/aes-256-encryption-algorithm)
 
 Installation
 ------------
