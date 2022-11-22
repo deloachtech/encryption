@@ -3,9 +3,7 @@ Encryption Package
 
 An Advanced Encryption Standard (AES) 256-bit class for PHP.
 
-Encryption is fundamental to contemporary internet security. An encryption system scrambles sensitive data using mathematical calculations to turn data into code. The original data can only be revealed with the correct key, allowing it to remain secure from everyone but the authorized parties.
-
-The AES algorithm was approved by the NSA for handling top secret information. AES has since become the industry standard for encryption. Its open nature means AES software can be used for both public and private, commercial and noncommercial implementations.
+(Understanding AES 256 Encryption)[https://www.n-able.com/blog/aes-256-encryption-algorithm]
 
 Installation
 ------------
