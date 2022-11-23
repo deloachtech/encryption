@@ -23,7 +23,7 @@ Usage
 echo AES256Encryprion::generateKey();
 ```
 
-There should be no issue using the same key for all records in terms of security as long as the key itself is strong. Using a different key does not give you any advantage (in fact, it will be a real headache to manage), so one key should usually be good enough. There are probably many solutions to storing keys securely, but those depend on the level of security you really need.
+There should be no issue using the same key for all records in terms of security. Using a different key does not give you any advantage (in fact, it will be a real headache to manage), so one key should usually be good enough. There are probably many solutions to storing keys securely, but those depend on the level of security you really need.
 
 ### Encrypting data
 
