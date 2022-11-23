@@ -32,7 +32,7 @@ $iv = AES256Encryption::generateIv();
 $encryptedText = AES256Encryption::encrypt($text, $key, $iv);
 ```
 
-You can simply store the initialization vector (IV) in the database next to the encrypted data. The IV itself is not supposed to be secret. It usually acts as a salt, to avoid a situation where two identical plaintext records get encrypted into identical ciphertext. Storing the IV in the database for each row will eliminate the concern over losing this data. Ideally, each row IV would be unique and random but not secret.
+You can simply store the initialization vector (IV) in the database next to the encrypted data. The IV itself is not supposed to be secret. It usually acts as a salt, to avoid a situation where two identical plaintext records get encrypted into identical ciphertext. Storing the IV in the database for each row will eliminate the concern over losing this data. Ideally, each row IV would be unique and random but not secret. (You can also use the record index value as an IV.)
 
 ### Decrypting data
 
