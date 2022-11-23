@@ -12,12 +12,12 @@ Installation
 composer require aarondeloach/encryption
 ```
 
-Or download the package and use the class itself.
+Or download the package and use the class itself. (All class methods are static.)
 
 Usage
 -----
 
-# Create a key
+### Create a key
 
 ```php
 echo AES256Encryprion::generateKey();
@@ -25,7 +25,7 @@ echo AES256Encryprion::generateKey();
 
 There should be no issue using the same key for all records in terms of security as long as the key itself is strong. Using a different key does not give you any advantage (in fact, it will be a real headache to manage), so one key should usually be good enough. There are probably many solutions to storing keys securely, but those depend on the level of security you really need.
 
-# Encrypting data
+### Encrypting data
 
 ```php
 $iv = AES256Encryption::generateIv();
@@ -34,7 +34,7 @@ $encryptedText = AES256Encryption::encrypt($text, $key, $iv);
 
 You can simply store the initialization vector (IV) in the database next to the encrypted data. The IV itself is not supposed to be secret. It usually acts as a salt, to avoid a situation where two identical plaintext records get encrypted into identical ciphertext. Storing the IV in the database for each row will eliminate the concern over losing this data. Ideally, each row IV would be unique and random but not secret.
 
-# Decrypting data
+### Decrypting data
 
 ```php
 $decryptedText = AES256Encryption::decrypt($encryptedText, $key, $iv);
