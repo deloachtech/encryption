@@ -9,7 +9,7 @@ Installation
 ------------
 
 ```bash
-composer require aarondeloach/encryption
+composer require deloachtech/encryption
 ```
 
 Or download the package and use the class itself. (All class methods are static.)

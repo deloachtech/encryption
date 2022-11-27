@@ -1,5 +1,5 @@
 {
-  "name": "aarondeloach/encryption",
+  "name": "deloachtech/encryption",
   "description": "An Advanced Encryption Standard (AES) 256-bit class for PHP.",
   "type": "library",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "AaronDeLoach\\Encryption\\": "src/"
+      "DeLoachTech\\Encryption\\": "src/"
     }
   }
 }

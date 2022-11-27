@@ -1,15 +1,15 @@
 <?php
 /*
- * This file is part of the aarondeloach/encryption package.
+ * This file is part of the deloachtech/encryption package.
  *
- * Copyright (c) Aaron DeLoach
- * https://adeloach.com
+ * Copyright (c) DeLoach Tech
+ * https://deloachtech.com
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace AaronDeLoach\Encryption;
+namespace DeLoachTech\Encryption;
 
 /**
  * Usage:
